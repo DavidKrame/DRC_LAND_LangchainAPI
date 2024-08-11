@@ -64,7 +64,8 @@ The API will be accessible at `http://127.0.0.1:5000/`.
 ### Example Request
 
 ```bash
-curl -X POST http://127.0.0.1:5000/query -H "Content-Type: application/json" -d '{"query": "how many renters are there in the database?"}'
+curl -X POST http://127.0.0.1:5000/query -H "Content-Type: application/json" -d '{"query": "How many renters are there in the database?"}'
+```
 
 ### Example Response
 
@@ -72,3 +73,4 @@ curl -X POST http://127.0.0.1:5000/query -H "Content-Type: application/json" -d 
 {
   "response": "There are X renters in the database."
 }
+```
